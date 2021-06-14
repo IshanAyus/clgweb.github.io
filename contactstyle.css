@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+/* GLobal Styles */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+  
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background-image:url('back.gif');
+	  background-size:cover;
+	   background-attachment: fixed;
+      background-repeat:no-repeat;
+      color: black;
+  }
+.logo{
+ width: 350px;
+ padding-left: 100px;
+ padding-top: 70px;
+}
+h2{
+    padding-top: 0px;
+    top: 10px;
+    padding-left: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contact{
+    width: 100%;
+    height: 85vh;
+}
+.con{
+    width: 100%;
+    height: 80vh;
+}
+.front{
+    margin-left: 80px;
+    position: absolute;
+    height: 70px;
+    top: 300px;
+    padding: 20px;
+    background-color:  rgba(211, 84, 0, 0.5)
+    
+}
+div h4 {
+    color: aliceblue;
+}
+.middle{
+    padding-left: 450px;
+}
+
+.main{
+    margin-left: 50px;
+}
+p{
+    left: 40px;
+    border: 2px black;
+}
+.deve{
+    background-color: rgba(108, 122, 137, 1);
+    color: black;
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+nav{
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+  nav a{
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+  color:orange;
+    text-transform:uppercase;
+  
+  }
+  /* Dropdown Button */
+.dropbtn {
+   background:  rgba(0,0,0,0.3);
+    color: orange;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background: rgba(0,0,0,0.3);
+  
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  color:orange;
+  background: rgba(0,0,0,0.3);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: orange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+.tag{
+    display: block;
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+@media(max-width:900px){
+    .middle{
+        padding-left: 30px;
+    }
+    iframe{
+        width: 300px;
+    }
+    .logo{
+        padding-left: 30px
+    }
+  
+  }
